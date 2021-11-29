@@ -1,0 +1,278 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 121px;
+    background-color: white;
+    opacity: 73%;
+    position: relative;
+}
+
+h1 {
+    position: relative;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+}
+
+h1 > img {
+    width: 100px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbaritems {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+    position: relative;
+    right: 28vw;
+    top: 1.25vw;
+}
+
+.navbaritems > li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.navbaritems > li > a {
+    text-align: center;
+    color: #1e1e24;
+    text-decoration: none;
+    font-family: 'MADE Tommy Soft';
+    font-size: 1.76vw;  
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.bar {
+    width: auto;
+    height: 3.5vw;
+    background-color: #1e1e24;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.bar > span {
+    color: white;
+    font-family: "MADE Tommy Soft";
+    font-weight: 300;
+    position: relative;
+    left: 36vw;
+    top: 1.25vw;
+    font-size: 1.15vw;
+}
+
+.lahore {
+    font-weight: 500;
+}
+
+.navbar {
+    position: relative;
+}
+
+.webbanner {
+    position: absolute;
+}
+
+.webbanner > img {
+    width: 100%;
+    position: relative;
+}
+
+.bannertext {
+    position: absolute;
+    top: 20vw;
+    left: 5vw;
+    color: #1e1e24;
+}
+
+.bannertext > span {
+    font-size: 5vw;
+    font-family: "MADE Tommy Soft";
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.bannertext > span:first-child {
+    color: white;
+}
+
+.bannertext > .button {
+    background-color: #00e136;
+    color: white;
+    font-size: 2.25vw;
+    padding: 5px 50px;
+    border-radius: 50px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+    font-family: "MADE Tommy Soft";
+}
+
+section {
+    background-color: #00e136;
+    height: 50vw;
+    width: 100%;
+    position: relative;
+    top: 36vw;
+}
+
+.heading {
+    position: relative;
+}
+
+.heading {
+    color: #1e1e24;
+    font-size: 3vw;
+    font-family: "MADE Tommy Soft";
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    left: 30%;
+    top: 75px;
+}
+
+
+.bottle > div {
+    display: inline-block;
+    position: relative;
+    top: 10vw;
+    left: 12.5vw;
+}
+
+.bottle > div > a {
+    display: block;
+}
+
+.bottle > div > a > span:first-child {
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.bottle > div > a > span {
+    display: block;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: "MADE Tommy Soft";
+    text-align: center;
+}
+
+.bottle > div > a > img {
+    background-color: white;
+    width: 100px;
+    padding: 75px;
+    margin: 0 0.5vw;
+}
+
+.viewall {
+    background-color: #fb5455;
+    font-size: 25px;
+    font-family: "MADE Tommy Soft";
+    padding: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: absolute;
+    top: 85%;
+    left: 44%;
+}
+
+.viewall > a {
+    color: white;
+}
+
+.about {
+    background-color: #1e1e24;
+    height: 40vw;
+    width: 100%;
+    position: relative;
+    top: 36vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about1 > ul {
+    list-style-type: none;
+    font-family: "MADE Tommy Soft";
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 150px;
+    margin :0 150px;
+    width: 100%;
+}
+
+.about1 > ul > li {
+    margin :30px 0 ;
+}
+
+.about1 > ul > li:first-child {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about2 > ul {
+    list-style-type: none;
+    font-family: "MADE Tommy Soft";
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 150px;
+    margin :0 150px;
+}
+
+.about2 > ul > li {
+    margin :30px;
+}
+
+.about2 > ul > li:first-child {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container > img {
+    position: relative;
+    top: 125px;
+    left: 20px;
+}
+
+footer {
+    background-color: #f1eef1;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 35.5vw;
+}
+
+footer > span {
+    font-family: "MADE Tommy Soft";
+    position: relative;
+    top: 40px;
+    left: 60px;
+    font-size: 20px;
+}
+
+footer > span > span {
+    color: #00e136;
+    font-weight: 700;
+    text-transform: uppercase;
+}
